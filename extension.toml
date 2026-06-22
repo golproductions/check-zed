@@ -1,0 +1,12 @@
+[extension]
+id = "gol-check"
+name = "GOL Check"
+description = "Anti-hallucination firewall. Validates AI-generated commands before execution."
+version = "1.0.0"
+authors = ["GOL Productions <support@golproductions.com>"]
+repository = "https://github.com/golproductions/check-zed"
+schema_version = 1
+
+[language_servers.check]
+name = "GOL Check"
+languages = ["*"]
