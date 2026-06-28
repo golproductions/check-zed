@@ -1,6 +1,6 @@
 # GOL Check for Zed
 
-Anti-hallucination firewall for Zed. Validates commands before execution.
+The universal anti-hallucination engine for Zed.
 
 ## Install
 
@@ -24,8 +24,7 @@ export GOL_CLIENT_ID="your_client_id"
 In Zed's chat or editor, use the slash command:
 
 ```
-/check npm install some-package
-/check curl https://api.example.com/v1/data
+/check <command>
 ```
 
 ## Get a Client ID
