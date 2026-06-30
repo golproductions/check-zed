@@ -2,7 +2,7 @@
 id = "gol-check"
 name = "GOL Check"
 description = "The universal anti-hallucination engine. AI agents hallucinate. Check catches it."
-version = "1.0.0"
+version = "1.0.1"
 authors = ["GOL Productions <support@golproductions.com>"]
 repository = "https://github.com/golproductions/check-zed"
 schema_version = 1
