@@ -30,13 +30,14 @@ impl zed::Extension for CheckExtension {
 
         if client_id.is_empty() {
             return Err(
-                "GOL_CLIENT_ID not set. Get one at golproductions.com/check.html".to_string(),
+                "GOL_CLIENT_ID not set. Get a free key instantly with `npx @golproductions/check --install`, then set GOL_CLIENT_ID in your environment.".to_string(),
             );
         }
 
         let body = serde_json::json!({
             "command": cmd,
             "platform": "zed",
+            "channel": "zed",
             "v": "1.0.0"
         });
 
