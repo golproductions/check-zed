@@ -1,4 +1,3 @@
-[extension]
 id = "gol-check"
 name = "GOL Check"
 description = "The universal anti-hallucination engine. AI agents hallucinate. Check catches it."
