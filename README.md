@@ -6,7 +6,7 @@ The anti-hallucination layer for Zed.
 
 ## Install
 
-Install from Zed's extension registry, or build from source:
+Not in Zed's extension registry. Install as a dev extension from this repo:
 
 ```bash
 cd check-zed
